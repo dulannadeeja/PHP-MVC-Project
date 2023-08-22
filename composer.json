@@ -1,0 +1,19 @@
+{
+    "name": "dulan/mvc-freamwork-implementation",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Dulannadeeja\\Mvc\\": "src/core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dulan nadeeja",
+            "email": "dulannadeeja@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*"
+    }
+}
